@@ -1259,7 +1259,7 @@ section {border-bottom:1px solid #ececec}
 .highlight-button-black { background-color: transparent; border: 2px solid #000; color: #000; display: inline-block; font-size: 12px; padding: 8px 20px 9px;}
 .highlight-button-black-border { background-color: transparent; border: 2px solid #000; color: #000; font-size: 22px; font-weight: 600; padding: 20px 30px;}
 .highlight-button-white-border { background-color: transparent; border: 2px solid #fff; color: #fff; font-size: 22px; font-weight: 600; padding: 20px 30px;}
-.highlight-button-blgr-border { background-color: transparent; border: 2px solid rgb(235,36,42); color: rgb(235,36,42); font-size: 22px; font-weight: 600; padding: 20px 30px; background-color: transparent; font-size: 14px; font-weight: 500; font-family: 'Montserrat', sans-serif; text-transform: none;"}
+.highlight-button-blgr-border { background-color: transparent; border: 2px solid rgb(235,36,42); color: rgb(235,36,42); font-size: 22px; font-weight: 600; padding: 20px 30px; background-color: transparent; font-size: 14px; font-weight: 500; font-family: 'Montserrat', sans-serif; text-transform: none;}
 
 /* buttons hover */
 .button-black-hover:hover {border: 1px solid #000 !important; color: #000 !important;}
