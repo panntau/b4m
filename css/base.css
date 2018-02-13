@@ -203,7 +203,7 @@ h6 { font-size:18px; line-height:23px}
 .text-dark-blue { color: rgb(55,57,55);}
 .text-fast-blue{ color: #3966e6;}
 .text-sky-blue-dark{ color: #2c91d8;}
-.text-blue-gray { color:#919499;}
+.text-blue-gray { color:#5bbad5;}
 .text-cyan{ color: #31c99b;}
 .text-deep-red{ color: rgb(235,36,42);}
 .text-pink{ color: #ff3d7f;}
@@ -411,6 +411,7 @@ h6 { font-size:18px; line-height:23px}
 .bg-dark-purple { background: #181623;}
 .bg-dark-brown { background: #7d6548;}
 .bg-very-light-brown { background: #eee3d6;}
+.bg-blue-gray{background: #5bbad5;}
 
 /* rgb background color */
 .bg-cyan-rgba { background-color: rgba(49, 201, 155, 0.9);}
@@ -1154,6 +1155,30 @@ section {border-bottom:1px solid #ececec}
 .list-line li:last-child {border-bottom:none}
 .list-line li:first-child {padding-top:0}
 
+
+/* navbar custom */
+.propClone{
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.shrink .text-black{color: #fff !important; }
+.navbar.header-border-light.shrink-nav.shrink{
+  border-bottom: 2px solid #fff;
+}
+.icon-bg{
+  background: #5bbad5;
+  width: 120px;
+  height: 120px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  color: #fff;
+}
 /* ===================================
     OWL Carousel
 ====================================== */
@@ -1234,6 +1259,7 @@ section {border-bottom:1px solid #ececec}
 .highlight-button-black { background-color: transparent; border: 2px solid #000; color: #000; display: inline-block; font-size: 12px; padding: 8px 20px 9px;}
 .highlight-button-black-border { background-color: transparent; border: 2px solid #000; color: #000; font-size: 22px; font-weight: 600; padding: 20px 30px;}
 .highlight-button-white-border { background-color: transparent; border: 2px solid #fff; color: #fff; font-size: 22px; font-weight: 600; padding: 20px 30px;}
+.highlight-button-blgr-border { background-color: transparent; border: 2px solid rgb(235,36,42); color: rgb(235,36,42); font-size: 22px; font-weight: 600; padding: 20px 30px; background-color: transparent; font-size: 14px; font-weight: 500; font-family: 'Montserrat', sans-serif; text-transform: none;"}
 
 /* buttons hover */
 .button-black-hover:hover {border: 1px solid #000 !important; color: #000 !important;}
