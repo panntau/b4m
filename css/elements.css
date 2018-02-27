@@ -37,14 +37,14 @@ Table of Contents
 ====================================== */
 
 .navbar {
-  padding: 20px 0 20px;
+  padding: 15px 0;
   z-index: 999;
   width: 100%;
   border-radius: 0;
   border: 0;
 }
 .navbar img {
-  max-height: 35px;
+  max-height: 45px;
 }
 .navbar li {
   margin: 13px 20px;
