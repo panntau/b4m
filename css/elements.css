@@ -35,7 +35,6 @@ Table of Contents
 /* ===================================
     Navbar
 ====================================== */
-
 .navbar {
   padding: 15px 0;
   z-index: 999;
@@ -43,9 +42,30 @@ Table of Contents
   border-radius: 0;
   border: 0;
 }
-.navbar img {
-  max-height: 45px;
+.navbar img{
+  max-height: 50px
 }
+@media (min-width:992px){
+
+    .logo{
+        position: relative;
+    }
+    .logo a {
+        position: absolute;
+        left:50px;
+        top: -25px;
+    }
+    .navbar img {
+      max-height: 90px;
+    }
+    .navbar.shrink-nav.shrink img {
+      max-height: 50px
+    }
+    .navbar.shrink-nav.shrink .logo a{
+      position: static;
+    }
+}
+
 .navbar li {
   margin: 13px 20px;
 }
