@@ -47,8 +47,8 @@ $(document).ready(function() {
     autoPlay: 5000,
     singleItem: true,
     navigationText: [
-      '<svg height="100" width="60"><polygon points="10,50 50,10 50,90" class="triangle" /><</svg>',
-      '<svg height="100" width="60"><polygon points="10,10 10,90 50,50" class="triangle" />></svg>'
+      '<svg viewbox="0 0 60 100"><polygon points="10,50 50,10 50,90" class="triangle" /><</svg>',
+      '<svg viewbox="0 0 60 100"><polygon points="10,10 10,90 50,50" class="triangle" />></svg>'
     ]
   });
 
