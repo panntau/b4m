@@ -101,6 +101,7 @@
 }
 header .container {
   position: relative;
+  min-height: 0;
 }
 header .row {
   align-items: center;
