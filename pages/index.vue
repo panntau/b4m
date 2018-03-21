@@ -1,7 +1,7 @@
 <template>
     <div>
       <web-header/>
-      <web-slider></web-slider>
+      <web-slider :items="loadedSliders" ></web-slider>
       <web-about/>
       <web-services/>
       <web-portfolio/>
@@ -39,6 +39,44 @@ export default {
     WebContacts,
     WebMap,
     WebFooter
+  },
+  asyncData(context, callback) {
+    setTimeout(() => {
+      callback(null, {
+        loadedSliders: [
+          {
+            title: 'Kreativní Agentura',
+            text:
+              "Lorem Ipsum is simply dummy text of the typesetting industry. Lorem Ipsum has been industry's standard dummy text.",
+            bg: 'http://www.placecage.com/1920/1300', //'~assets/images/bg-image/woman-hand-pen-girl.jpg',
+            links: {
+              VÍCE: '#content-section39',
+              PORTFOLIO: '#portfolios-section3'
+            }
+          },
+          {
+            title: 'Hmatatelné výsledky',
+            text:
+              "Lorem Ipsum is simply dummy text of the typesetting industry. Lorem Ipsum has been industry's standard dummy text.",
+            bg: '~/assets/images/bg-image/pexels-photo-265087.jpeg',
+            links: {
+              VÍCE: '#content-section39',
+              PORTFOLIO: '#portfolios-section3'
+            }
+          },
+          {
+            title: 'Precizní strategie',
+            text:
+              "Lorem Ipsum is simply dummy text of the typesetting industry. Lorem Ipsum has been industry's standard dummy text.",
+            bg: '~assets/images/bg-image/marketing-board-strategy.jpg',
+            links: {
+              VÍCE: '#content-section39',
+              PORTFOLIO: '#portfolios-section3'
+            }
+          }
+        ]
+      });
+    }, 1500);
   }
 };
 </script>

@@ -53,15 +53,16 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#3B8070' },
+  loading: { color: 'rgb(235,36,42)' },
 
   /*
   ** Global CSS
   */
   css: [
     '~/assets/css/animate.css',
-    '~/assets/css/owl.transitions.css',
-    '~/assets/css/owl.carousel.css',
+    // '~/assets/css/owl.transitions.css',
+    // '~/assets/css/owl.carousel.css',
+    'swiper/dist/css/swiper.css',
     '~/assets/css/magnific-popup.css',
     '~/assets/css/base.css',
     '~/assets/css/elements.css',
@@ -71,7 +72,7 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [],
+  plugins: [{ src: '~/plugins/swiper.js', ssr: false }],
 
   /*
   ** Nuxt.js modules
