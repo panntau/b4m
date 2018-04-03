@@ -45,260 +45,21 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="overflow-hidden grid-gallery">
                         <div class="tab-content">
-                            <ul class="masonry-items grid work-gallery grid">
-                                <!-- portfolio item -->
-                                <li class="brand xs-no-padding">
+                            <ul class=" grid work-gallery grid">
+                            <no-ssr>
+                            <div v-masonry transition-duration="3s" item-selector=".item" class="masonry-container masonry-items">
+                                <li v-masonry-tile class="item brand xs-no-padding" :key="index" v-for="(item, index) in blocks">
                                     <figure>
                                         <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/brand1.jpg" title="">
-                                                <img src="~assets/images/portfolio/brand1.jpg" id="tz-bg-96" data-img-size="(W)800px X (H)1322px" alt="">
+                                            <a :href="item.src" title="">
+                                                <img :src="item.src" id="tz-bg-96"  alt="">
                                             </a>
+                                            <p>{{item.category}} - {{index}}</p>
                                         </div>
                                     </figure>
                                 </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="web xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/web1.png" title="">
-                                                <img src="~assets/images/portfolio/web1.png" id="tz-bg-97" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="brand xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/brand2.jpg" title="">
-                                                <img src="~assets/images/portfolio/brand2.jpg" id="tz-bg-98" data-img-size="(W)800px X (H)1322px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="brand web xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/brand4.jpg" title="">
-                                                <img src="~assets/images/portfolio/brand4.jpg" id="tz-bg-99" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="brand xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/brand3.jpg" title="">
-                                                <img src="~assets/images/portfolio/brand3.jpg" id="tz-bg-100" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="tisk xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/tisk6.jpg" title="">
-                                                <img src="~assets/images/portfolio/tisk6.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="tisk xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/tisk1.jpg" title="">
-                                                <img src="~assets/images/portfolio/tisk1.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="tisk xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/tisk2.jpg" title="">
-                                                <img src="~assets/images/portfolio/tisk2.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="tisk xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/tisk3.jpg" title="">
-                                                <img src="~assets/images/portfolio/tisk3.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="tisk xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/tisk4.jpg" title="">
-                                                <img src="~assets/images/portfolio/tisk4.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="tisk xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/tisk5.jpg" title="">
-                                                <img src="~assets/images/portfolio/tisk5.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="foto xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/foto1.jpeg" title="">
-                                                <img src="~assets/images/portfolio/foto1.jpeg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="foto xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/foto2.jpg" title="">
-                                                <img src="~assets/images/portfolio/foto2.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="web xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/web2.jpg" title="">
-                                                <img src="~assets/images/portfolio/web2.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="web xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/web3.jpg" title="">
-                                                <img src="~assets/images/portfolio/web3.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="web xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/web4.jpg" title="">
-                                                <img src="~assets/images/portfolio/web4.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="product xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/product1.jpg" title="">
-                                                <img src="~assets/images/portfolio/product1.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="product xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/product2.jpg" title="">
-                                                <img src="~assets/images/portfolio/product2.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="product xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/product3.jpg" title="">
-                                                <img src="~assets/images/portfolio/product3.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="product xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/product4.jpg" title="">
-                                                <img src="~assets/images/portfolio/product4.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="product xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/product5.jpg" title="">
-                                                <img src="~assets/images/portfolio/product5.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="product xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/product6.jpg" title="">
-                                                <img src="~assets/images/portfolio/product6.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
-                                <!-- portfolio item -->
-                                <li class="product xs-no-padding">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a href="~assets/images/portfolio/product7.jpg" title="">
-                                                <img src="~assets/images/portfolio/product7.jpg" id="tz-bg-101" data-img-size="(W)800px X (H)650px" alt="">
-                                            </a>
-                                        </div>
-                                    </figure>
-                                </li>
-                                <!-- end portfolio item -->
+                            </div>
+                            </no-ssr>
                             </ul>
                         </div>
                     </div>
@@ -310,6 +71,116 @@
 </template>
 
 <script>
+import NoSSR from 'vue-no-ssr';
+
+export default {
+  components: {
+    'no-ssr': NoSSR
+  },
+  data() {
+    return {
+      blocks: [
+        {
+          src: '~assets/images/portfolio/brand1.jpg',
+          category: 'brand'
+        },
+        {
+          src: '~assets/images/portfolio/brand2.jpg',
+          category: 'brand'
+        },
+        {
+          src: '~assets/images/portfolio/brand3.jpg',
+          category: 'brand'
+        },
+        {
+          src: '~assets/images/portfolio/brand4.jpg',
+          category: 'brand'
+        },
+        {
+          src: '~assets/images/portfolio/product7.jpg',
+          category: 'product'
+        },
+        {
+          src: '~assets/images/portfolio/product6.jpg',
+          category: 'product'
+        },
+        {
+          src: '~assets/images/portfolio/product5.jpg',
+          category: 'product'
+        },
+        {
+          src: '~assets/images/portfolio/product4.jpg',
+          category: 'product'
+        },
+        {
+          src: '~assets/images/portfolio/product3.jpg',
+          category: 'product'
+        },
+        {
+          src: '~assets/images/portfolio/product2.jpg',
+          category: 'product'
+        },
+        {
+          src: '~assets/images/portfolio/product.jpg',
+          category: 'product'
+        },
+        {
+          src: '~assets/images/portfolio/web1.jpg',
+          category: 'web'
+        },
+        {
+          src: '~assets/images/portfolio/web2.jpg',
+          category: 'web'
+        },
+        {
+          src: '~assets/images/portfolio/web3.jpg',
+          category: 'web'
+        },
+        {
+          src: '~assets/images/portfolio/web4.jpg',
+          category: 'web'
+        },
+        {
+          src: '~assets/images/portfolio/web5.jpg',
+          category: 'web'
+        },
+        {
+          src: '~assets/images/portfolio/foto1.jpg',
+          category: 'foto'
+        },
+        {
+          src: '~assets/images/portfolio/foto2.jpg',
+          category: 'foto'
+        },
+        {
+          src: '~assets/images/portfolio/tisk1.jpg',
+          category: 'tisk'
+        },
+        {
+          src: '~assets/images/portfolio/tisk2.jpg',
+          category: 'tisk'
+        },
+        {
+          src: '~assets/images/portfolio/tisk3.jpg',
+          category: 'tisk'
+        },
+        {
+          src: '~assets/images/portfolio/tisk4.jpg',
+          category: 'tisk'
+        },
+        {
+          src: '~assets/images/portfolio/tisk5.jpg',
+          category: 'tisk'
+        }
+      ]
+    };
+  },
+  mounted() {
+    if (typeof this.$redrawVueMasonry === 'function') {
+      this.$redrawVueMasonry();
+    }
+  }
+};
 </script>
 
 <style lang="sass" src="" />
