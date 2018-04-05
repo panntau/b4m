@@ -7,21 +7,17 @@
 </template>
 
 <script>
-import AdminPostForm from "@/components/Admin/AdminPostForm";
-import axios from "axios";
+import AdminPostForm from '@/components/Admin/AdminPostForm';
+import axios from 'axios';
 
 export default {
-  layout: "admin",
+  layout: 'admin',
   components: {
     AdminPostForm
   },
   asyncData(context) {
     return axios
-      .get(
-        "https://nuxt-blog.firebaseio.com/posts/" +
-          context.params.postId +
-          ".json"
-      )
+      .get('https://bobek4media-admin.firebaseio.com/posts/' + context.params.postId + '.json')
       .then(res => {
         return {
           loadedPost: { ...res.data, id: context.params.postId }
@@ -31,8 +27,8 @@ export default {
   },
   methods: {
     onSubmitted(editedPost) {
-      this.$store.dispatch("editPost", editedPost).then(() => {
-        this.$router.push("/admin");
+      this.$store.dispatch('editPost', editedPost).then(() => {
+        this.$router.push('/admin');
       });
     }
   }

@@ -7,18 +7,23 @@
 </template>
 
 <script>
-import axios from "axios";
-import AdminPostForm from "@/components/Admin/AdminPostForm";
+import axios from 'axios';
+import AdminPostForm from '@/components/Admin/AdminPostForm';
 
 export default {
-  layout: "admin",
+  layout: 'admin',
   components: {
     AdminPostForm
   },
   methods: {
     onSubmitted(postData) {
-      this.$store.dispatch("addPost", postData).then(() => {
-        this.$router.push("/admin");
+      console.log(postData);
+      // axios
+      //   .post('https://bobek4media-admin.firebaseio.com/posts.json', postData)
+      //   .then(result => console.log(result))
+      //   .catch(e => console.log(e));
+      this.$store.dispatch('addPost', postData).then(() => {
+        this.$router.push('/admin');
       });
     }
   }
