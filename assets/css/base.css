@@ -551,7 +551,7 @@ h6 { font-size:18px; line-height:23px}
 .margin-six-bottom{margin-bottom:3.5% !important}
 .margin-seven-bottom{margin-bottom:4% !important}
 .margin-eight-bottom {margin-bottom:4.5% !important}
-.margin-nine-bottom{margin-bottom:5% !important}
+/* .margin-nine-bottom{margin-bottom:5% !important} */
 .margin-ten-bottom{margin-bottom:5.5% !important}
 .margin-eleven-bottom{margin-bottom:6% !important}
 .margin-twelve-bottom{margin-bottom:6.5% !important}
@@ -1272,11 +1272,11 @@ width: 90px;
 .highlight-button-black { background-color: transparent; border: 2px solid #000; color: #000; display: inline-block; font-size: 12px; padding: 8px 20px 9px;}
 .highlight-button-black-border { background-color: transparent; border: 2px solid #000; color: #000; font-size: 22px; font-weight: 600; padding: 20px 30px;}
 .highlight-button-white-border { background-color: transparent; border: 2px solid #fff; color: #fff; font-size: 22px; font-weight: 600; padding: 20px 30px;}
-.highlight-button-blgr-border { 
-    background-color: transparent; 
+.highlight-button-blgr-border {
+    background-color: transparent;
     border: 2px solid rgb(235,36,42);
-     color: rgb(235,36,42); 
-     font-size: 22px; font-weight: 600; padding: 20px 30px; background-color: transparent; font-size: 14px; font-weight: 500; 
+     color: rgb(235,36,42);
+     font-size: 22px; font-weight: 600; padding: 20px 30px; background-color: transparent; font-size: 14px; font-weight: 500;
      font-family: 'Montserrat', sans-serif; text-transform: none;
 }
 

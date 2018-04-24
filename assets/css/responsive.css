@@ -370,7 +370,7 @@
     .md-padding-twenty-seven-left{padding-left:14% !important}
     .md-padding-twenty-eight-left{padding-left:14.5% !important}
     .md-padding-twenty-nine-left{padding-left:15% !important}
-    
+
     .md-padding-left-5px{ padding-left:5px !important;}
     .md-padding-left-10px{ padding-left:10px !important;}
     .md-padding-left-15px{ padding-left:15px !important;}
@@ -512,7 +512,7 @@
     .md-title-big2 { font-size: 125px !important; line-height:125px !important;}
     .md-title-big3 { font-size: 150px !important; line-height:150px !important;}
 
-    /* line height */   
+    /* line height */
     .md-line-height-normal {line-height: normal !important}
     .md-line-height-0{ line-height: 0px !important;}
     .md-line-height-10{ line-height: 10px !important;}
@@ -564,7 +564,7 @@
 
     /*header*/
     .navbar-header {background: none}
-    .header-style4 .header-bottom li { margin: 13px 18px;}    
+    .header-style4 .header-bottom li { margin: 13px 18px;}
     .header-style4 .header-bottom li a::before { right: -21px;}
     .navbar li { margin: 13px 16px;}
     .navbar .nav-button{margin: 10px 0 8px 10px;}
@@ -593,7 +593,7 @@
     .tab-style1 .nav-tabs li a {padding: 7px 20px 6px;}
     .tab-style2 .nav-tabs li {float: left; margin: 0 20px;}
     .header-style2 li a::before{right:-19px;}
-    
+
     /* tab style 2 */
     .panel-group * { transition-timing-function: none; -moz-transition-timing-function: none; -webkit-transition-timing-function: none; -o-transition-timing-function: none; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; }
 
@@ -620,12 +620,12 @@
 
     /* call to action1 */
     .offer-box-right li{ margin: 0 0 15px !important;}
-    
+
     /* header style 5 */
     .header-style5 .social { float: right; margin: 12px 0 9px 18px;}
 
     .md-no-owl-buttons .owl-buttons { display: none;}
-    
+
     /* footer-7 & footer-15 */
     footer ul.links-inline li:first-child a {
         margin-left: 0;
@@ -1008,7 +1008,7 @@
     .sm-padding-twenty-seven-left{padding-left:14% !important}
     .sm-padding-twenty-eight-left{padding-left:14.5% !important}
     .sm-padding-twenty-nine-left{padding-left:15% !important}
-    
+
     .sm-padding-left-5px{ padding-left:5px !important;}
     .sm-padding-left-10px{ padding-left:10px !important;}
     .sm-padding-left-15px{ padding-left:15px !important;}
@@ -1101,7 +1101,7 @@
     .sm-top-minus8 {top: -8px !important}
     .sm-top-minus9 {top: -9px !important}
     .sm-top-minus10 {top: -10px !important}
-    
+
     .sm-top-3{top: 3px !important;}
     .sm-top-4{top: 4px !important;}
     .sm-top-5{top: 5px !important;}
@@ -1252,17 +1252,17 @@
 
     /* header */
     .header-style1 li a::before, .header-style2 li a::before { display: none;}
-    .navbar-toggle { 
+    .navbar-toggle {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        background-color: #000; 
-        border-radius: 0; margin-right: 0; 
+        background-color: #000;
+        border-radius: 0; margin-right: 0;
         cursor: pointer !important;}
     .navbar-toggle .burger{
         display: block;
         margin-left: 10px;
-    }    
+    }
     .navbar-toggle .icon-bar {background: #fff;}
     .navbar-collapse {box-shadow: none; background:rgba(0,0,0,.90); width: 100%; position: absolute; top: 90px;}
     .navbar.shrink .navbar-collapse {top:53px;}
@@ -1317,16 +1317,16 @@
     .hero-style3 .one-fourth-screen {height: 500px;}
 
     /* hero style 4 */
-    .hero-style4 .one-third-screen {height: 454px !important;}   
+    .hero-style4 .one-third-screen {height: 454px !important;}
 
     /* hero style 5 */
     .hero-style5 .one-fourth-screen { height: 570px !important;}
 
     /* hero style 6 */
-    .hero-style6 .one-third-screen {height: 570px !important;}    
+    .hero-style6 .one-third-screen {height: 570px !important;}
 
     /* hero style 13 */
-    .hero-style13 .one-third-screen {height: 500px !important;}    
+    .hero-style13 .one-third-screen {height: 500px !important;}
 
     /* hero style 14 */
     .hero-style14 .one-fourth-screen {height: 500px !important;}
@@ -1382,8 +1382,8 @@
     .team-style1 .team { height: 346px;}
     .team-style1 .team-details { bottom: -160px;}
 
-    /* team style 1 */    
-    .team-style6 .team { height: 480px; overflow: hidden; position: relative;}    
+    /* team style 1 */
+    .team-style6 .team { height: 480px; overflow: hidden; position: relative;}
 
     /* team style 4  */
     .about-style3 .about-text { padding: 5.5%;}
@@ -1397,7 +1397,7 @@
     .owl-buttons .owl-next { right: 20px;}
     .sm-show-pagination .owl-pagination{ display: block;}
     .sm-no-owl-buttons .owl-buttons { display: none;}
-    
+
     /* subscribe */
     .footer-style1 input {width: 280px; margin-left: 0;}
 
@@ -1440,7 +1440,7 @@
     .outside-arrow .owl-buttons .owl-prev { font-size: 20px; height: 40px; padding: 8px 0 0 10px; width: 40px; left: 0;}
     .btn.btn-extra-large {font-size:14px; padding:12px 24px !important; line-height: 16px;}
     .tab-style8 .nav-tabs li{margin:0; padding: 0;}
-    .tab-style8 .nav-tabs li a{line-height:38px; padding:0 17px;}    
+    .tab-style8 .nav-tabs li a{line-height:38px; padding:0 17px;}
 
     .sm-equalize-auto > div{height:auto !important;}
     h3 {font-size:26px; line-height:31px;}
@@ -1467,7 +1467,7 @@
     /* header style 12 */
     .header-style12 .navbar { padding: 21px 0; }
     .header-style12 .navbar.shrink-nav.shrink { padding: 16px 0; }
-    
+
     /* header style 7 */
     .event-counter .counter-box { height: 120px; width: 120px; padding: 24px 0; margin-right: 20px;}
     .event-counter .counter-box .number { font-size: 40px; line-height: 45px; }
@@ -1528,7 +1528,7 @@
     .xs-no-margin-top{ margin-top:0 !important}
     .xs-no-margin-bottom{ margin-bottom:0 !important}
     .xs-no-margin-left{ margin-left:0 !important}
-    .xs-no-margin-right{ margin-right:0 !important}    
+    .xs-no-margin-right{ margin-right:0 !important}
     .xs-margin-lr-auto {margin-left:auto !important; margin-right:auto !important}
 
     /* margin-bottom */
@@ -1754,7 +1754,7 @@
     .xs-padding-twenty-seven-left{padding-left:14% !important}
     .xs-padding-twenty-eight-left{padding-left:14.5% !important}
     .xs-padding-twenty-nine-left{padding-left:15% !important}
-    
+
     .xs-padding-left-5px{ padding-left:5px !important;}
     .xs-padding-left-10px{ padding-left:10px !important;}
     .xs-padding-left-15px{ padding-left:15px !important;}
@@ -1912,7 +1912,7 @@
     .xs-padding-60px-tb{padding-top:60px !important; padding-bottom:60px !important;}
     .xs-padding-70px-tb{padding-top:70px !important; padding-bottom:70px !important;}
     .xs-padding-30px{padding:30px !important;}
-    
+
     /* no padding */
     .xs-no-padding{ padding:0 !important}
     .xs-no-padding-lr{ padding-left: 0 !important; padding-right: 0 !important}
@@ -1939,7 +1939,7 @@
     .xs-position-absolute {position: absolute !important;}
     .xs-position-right { right:0 !important; }
     .xs-position-left { left:0 !important; }
-    .xs-position-top { top:0 !important; }   
+    .xs-position-top { top:0 !important; }
     .xs-position-fixed {position: fixed !important;}
     .xs-position-inherit {position: inherit !important;}
 
@@ -2007,7 +2007,7 @@
     .xs-z-index-minus2 {z-index:-2 !important;}
     .xs-no-transition * { transition-timing-function: none; -moz-transition-timing-function: none; -webkit-transition-timing-function: none; -o-transition-timing-function: none; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; }
 
-    /* line height */   
+    /* line height */
     .xs-line-height-normal {line-height: normal !important}
     .xs-line-height-0{ line-height: 0px !important;}
     .xs-line-height-10{ line-height: 10px !important;}
@@ -2246,12 +2246,12 @@
     .team-style1 .team-details {background-color: #282828; bottom: 5px; position: relative;}
     .team-style1 .team-details span{ color: #fff;}
 
-    /* team style 6 */        
+    /* team style 6 */
     .team-style6 .team { height: auto; max-height:inherit;}
-    .team-style6 .team-details{ padding:25px 0 0; position:relative; bottom: 0;}    
+    .team-style6 .team-details{ padding:25px 0 0; position:relative; bottom: 0;}
     .team-style6 .team:hover .team-details {bottom: 0;}
 
-    /* team style 3 */  
+    /* team style 3 */
     .team-style3 .team-details { padding:35px; }
 
     /* team style 4  */
@@ -2278,11 +2278,11 @@
     /* social */
     .newsletter-style1 p { width: 100%;}
 
-    /* hero style 3 */    
+    /* hero style 3 */
     .hero-style3 .one-fourth-screen {min-height:0;}
 
     /* hero style 4 */
-    .hero-style4 .one-third-screen {height: 400px !important;} 
+    .hero-style4 .one-third-screen {height: 400px !important;}
     .hero-style4 .application-mobile {position: inherit;}
     .hero-style4 .slider-typography{ padding:30px 0 0;}
 
@@ -2300,7 +2300,7 @@
     .form-subscribe form {width: 100%;}
 
     /* hero style 12 */
-    .hero-style12 .one-third-screen {height: 350px !important;} 
+    .hero-style12 .one-third-screen {height: 350px !important;}
 
     /* hero style 13 */
     .hero-style13 .application-mobile { position: inherit;}
@@ -2413,7 +2413,7 @@
     .btn.xs-btn-small { font-size: 11px; padding: 4px 14px !important; line-height: 18px;}
     .btn.xs-btn-very-small {font-size: 10px; padding: 10px 12px 10px !important; line-height: 0;}
     .btn-dual .btn {margin:0 10px 0 0}
-    
+
     /* price box 7 */
     .pricing-box-style7 li, .pricing-box-style7 li:first-child, .pricing-box-style7 li, .pricing-box-style7 li:first-child, .pricing-box-style7 li:last-child  { height: auto; padding: 30px 15px; }
 
@@ -2450,7 +2450,7 @@
     .video-section{max-height:350px; height:100%;}
     .one-fifth-screen {height:550px;}
     .xs-one-sixth-screen {height:600px;}
-    
+
     /* header style 7 */
     .event-counter .counter-box { float: none; height: 90px; margin: 10px auto 15px; padding: 15px 0; width: 90px; display: block;}
     .event-counter .counter-box .number { font-size: 30px; line-height: 35px; }
@@ -2505,7 +2505,7 @@
     .content-section30 .list-style1 li{width: 100%;}
 
     .owl-pagination {bottom: 20px;}
-    
+
     .xs-text-white {color: #fff !important;}
     .xs-text-black {color: #000 !important;}
     .xs-bg-white {background: #fff;}
