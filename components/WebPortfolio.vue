@@ -43,24 +43,22 @@
         <div class="row">
             <div class="work-4col wide gutter">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="overflow-hidden grid-gallery">
+                    <div class="grid-gallery">
                         <div class="tab-content">
-                            <ul class=" grid work-gallery grid">
-                            <no-ssr>
-                            <div v-masonry transition-duration="3s" item-selector=".item" class="masonry-container masonry-items">
-                                <li v-masonry-tile class="item brand xs-no-padding" :key="index" v-for="(item, index) in blocks">
-                                    <figure>
-                                        <div class="gallery-img lightbox-gallery">
-                                            <a :href="item.src" title="">
-                                                <img :src="item.src" id="tz-bg-96"  alt="">
-                                            </a>
-                                            <p>{{item.category}} - {{index}}</p>
-                                        </div>
-                                    </figure>
-                                </li>
-                            </div>
-                            </no-ssr>
+                          <no-ssr>
+                            <ul class="masonry-container grid work-gallery" v-masonry transition-duration="3s" item-selector=".item">
+                              <li v-masonry-tile class="item brand xs-no-padding" :key="index" v-for="(item, index) in blocks">
+                                <figure>
+                                    <div class="gallery-img lightbox-gallery">
+                                        <!-- <a :href="item.src" title=""> -->
+                                            <img v-img:portfolio :src="item.src" id="tz-bg-96" :title="item.title" :alt="item.title">
+                                        <!-- </a> -->
+                                        <!-- <p>{{item.category}} - {{index}}</p> -->
+                                    </div>
+                                </figure>
+                              </li>
                             </ul>
+                          </no-ssr>
                         </div>
                     </div>
                 </div>
@@ -81,95 +79,92 @@ export default {
     return {
       blocks: [
         {
-          src: '~assets/images/portfolio/brand1.jpg',
+          src: 'images/portfolio/brand1.jpg',
+          category: 'brand',
+          title: 'Brand XY, logo and brand identity'
+        },
+        {
+          src: 'images/portfolio/brand2.jpg',
           category: 'brand'
         },
         {
-          src: '~assets/images/portfolio/brand2.jpg',
+          src: 'images/portfolio/brand3.jpg',
           category: 'brand'
         },
         {
-          src: '~assets/images/portfolio/brand3.jpg',
+          src: 'images/portfolio/brand4.jpg',
           category: 'brand'
         },
         {
-          src: '~assets/images/portfolio/brand4.jpg',
-          category: 'brand'
-        },
-        {
-          src: '~assets/images/portfolio/product7.jpg',
+          src: 'images/portfolio/product7.jpg',
           category: 'product'
         },
         {
-          src: '~assets/images/portfolio/product6.jpg',
+          src: 'images/portfolio/product6.jpg',
           category: 'product'
         },
         {
-          src: '~assets/images/portfolio/product5.jpg',
+          src: 'images/portfolio/product5.jpg',
           category: 'product'
         },
         {
-          src: '~assets/images/portfolio/product4.jpg',
+          src: 'images/portfolio/product4.jpg',
           category: 'product'
         },
         {
-          src: '~assets/images/portfolio/product3.jpg',
+          src: 'images/portfolio/product3.jpg',
           category: 'product'
         },
         {
-          src: '~assets/images/portfolio/product2.jpg',
+          src: 'images/portfolio/product2.jpg',
           category: 'product'
         },
         {
-          src: '~assets/images/portfolio/product.jpg',
+          src: 'images/portfolio/product1.jpg',
           category: 'product'
         },
         {
-          src: '~assets/images/portfolio/web1.jpg',
+          src: 'images/portfolio/web1.png',
           category: 'web'
         },
         {
-          src: '~assets/images/portfolio/web2.jpg',
+          src: 'images/portfolio/web2.jpg',
           category: 'web'
         },
         {
-          src: '~assets/images/portfolio/web3.jpg',
+          src: 'images/portfolio/web3.jpg',
           category: 'web'
         },
         {
-          src: '~assets/images/portfolio/web4.jpg',
+          src: 'images/portfolio/web4.jpg',
           category: 'web'
         },
         {
-          src: '~assets/images/portfolio/web5.jpg',
-          category: 'web'
-        },
-        {
-          src: '~assets/images/portfolio/foto1.jpg',
+          src: 'images/portfolio/foto1.jpeg',
           category: 'foto'
         },
         {
-          src: '~assets/images/portfolio/foto2.jpg',
+          src: 'images/portfolio/foto2.jpg',
           category: 'foto'
         },
         {
-          src: '~assets/images/portfolio/tisk1.jpg',
+          src: 'images/portfolio/tisk1.jpg',
           category: 'tisk'
         },
         {
-          src: '~assets/images/portfolio/tisk2.jpg',
+          src: 'images/portfolio/tisk2.jpg',
           category: 'tisk'
         },
         {
-          src: '~assets/images/portfolio/tisk3.jpg',
+          src: 'images/portfolio/tisk3.jpg',
           category: 'tisk'
         },
         {
-          src: '~assets/images/portfolio/tisk4.jpg',
+          src: 'images/portfolio/tisk4.jpg',
           category: 'tisk'
         },
         {
-          src: '~assets/images/portfolio/tisk5.jpg',
+          src: 'images/portfolio/tisk5.jpg',
           category: 'tisk'
         }
       ]
@@ -179,8 +174,18 @@ export default {
     if (typeof this.$redrawVueMasonry === 'function') {
       this.$redrawVueMasonry();
     }
+  },
+  methods:{
+    
   }
 };
 </script>
 
-<style lang="sass" src="" />
+<style lang="sass"  >
+.masonry-container
+  width: 100%
+  display: inline-block
+.work-4col 
+  width: 100%
+  
+</style>

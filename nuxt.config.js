@@ -74,7 +74,8 @@ module.exports = {
   */
   plugins: [
     { src: '~/plugins/swiper.js', ssr: false },
-    { src: '~/plugins/vue-masonry.js', ssr: false }
+    { src: '~/plugins/vue-masonry-plugin.js', ssr: false },
+    { src: '~/plugins/vimg.js', ssr: false}
   ],
 
   /*
