@@ -1,6 +1,6 @@
 <template>
-  <section class="padding-110px-tb bg-dark-blue builder-bg border-none xs-padding-60px-tb" id="content-section21">
-    <div class="container">
+  <section class="padding-110px-tb feature bg-dark-blue builder-bg border-none xs-padding-60px-tb" id="content-section21">
+    <div class="container__rows">
         <div class="row">
             <!-- section title -->
             <div class="col-md-12 col-sm-12 col-xs-12 text-center">
@@ -13,7 +13,7 @@
         </div>
         <div class="row two-column">
             <!-- feature box -->
-            <div class="col-md-6 col-sm-6 col-xs-12 xs-text-center margin-nine-bottom sm-margin-fifteen-bottom xs-margin-nineteen-bottom">
+            <div class="col-md-6 col-sm-6 col-xs-12 feature__box xs-text-center margin-nine-bottom sm-margin-fifteen-bottom xs-margin-nineteen-bottom">
                 <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-nine-bottom">
                     <!-- <img class="img-round" alt="" src="images/img-round07.png" data-img-size="(W)400px X (H)400px"> -->
                     <div class="img-round icon-bg">
@@ -31,7 +31,7 @@
             </div>
             <!-- end feature box -->
             <!-- feature box -->
-            <div class="col-md-6 col-sm-6 col-xs-12 xs-text-center margin-nine-bottom sm-margin-fifteen-bottom xs-margin-nineteen-bottom">
+            <div class="col-md-6 col-sm-6 col-xs-12 feature__box xs-text-center margin-nine-bottom sm-margin-fifteen-bottom xs-margin-nineteen-bottom">
                 <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-nine-bottom">
                     <!-- <img class="img-round" alt="" src="images/img-round08.png" data-img-size="(W)400px X (H)400px"> -->
                     <div class="img-round icon-bg">
@@ -49,7 +49,7 @@
             </div>
             <!-- end feature box -->
             <!-- feature box -->
-            <div class="col-md-6 col-sm-6 col-xs-12 xs-text-center xs-margin-nineteen-bottom">
+            <div class="col-md-6 col-sm-6 col-xs-12 feature__box xs-text-center xs-margin-nineteen-bottom">
                 <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-nine-bottom">
                     <!-- <img class="img-round" alt="" src="images/img-round09.png" data-img-size="(W)400px X (H)400px"> -->
                     <div class="img-round icon-bg">
@@ -67,7 +67,7 @@
             </div>
             <!-- end feature box -->
             <!-- feature box -->
-            <div class="col-md-6 col-sm-6 col-xs-12 xs-text-center">
+            <div class="col-md-6 col-sm-6 col-xs-12 feature__box xs-text-center">
                 <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-nine-bottom">
                     <!-- <img class="img-round" alt="" src="images/img-round10.png" data-img-size="(W)400px X (H)400px"> -->
                     <div class="img-round icon-bg">
@@ -92,4 +92,4 @@
 <script>
 </script>
 
-<style lang="sass" src="" />
+<style lang="sass" src="./WebServices.sass" />
