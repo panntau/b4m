@@ -1,10 +1,10 @@
 <template>
-    <section id="home" class="no-padding slider-style2 border-none">
+  <section id="home" class="no-padding slider-style2 border-none">
           <!-- You can find this swiper instance object in current component by the "mySwiper"  -->
     <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
-            <!-- slider item -->
-        <div class="swiper-slide" v-for="(item) in items" :key="item.id">
+          <!-- slider item -->
+          <div class="swiper-slide" v-for="(item) in items" :key="item.id">
             <div class="owl-theme light-pagination xs-no-owl-buttons">
                 <!-- slider item -->
                 <div class="item owl-bg-img tz-builder-bg-image cover-background" data-img-size="(W)1920px X (H)994px" 
@@ -35,22 +35,22 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
-            </div>
-            <div class="swiper-pagination swiper-pagination-bullets"></div>
-            
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev">
-                <svg viewbox="0 0 60 100"><polygon points="10,50 50,10 50,90" class="triangle" />&lt;</svg>
-            </div>
-            <div class="swiper-button-next">
-                <svg viewbox="0 0 60 100"><polygon points="10,10 10,90 50,50" class="triangle" />&gt;</svg>
-            </div>
+          </div>
         </div>
+        <div class="swiper-pagination swiper-pagination-bullets"></div>
+            
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev">
+            <svg viewbox="0 0 60 100"><polygon points="10,50 50,10 50,90" class="triangle" />&lt;</svg>
+        </div>
+        <div class="swiper-button-next">
+            <svg viewbox="0 0 60 100"><polygon points="10,10 10,90 50,50" class="triangle" />&gt;</svg>
+        </div>
+    </div>
         
         <!-- end slider item -->
-    </section>
+  </section>
 </template>
 
 <script>
@@ -114,7 +114,7 @@ export default {
   }
 };
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
 // @import '@node_modules/tiny-slider/src/tiny-slider';
 .my-swiper {
   height: 300px;

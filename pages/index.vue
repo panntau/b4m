@@ -5,7 +5,7 @@
       <web-about/>
       <web-services/>
       <web-portfolio/>
-      <web-testimonials/>
+      <web-testimonials :items="loadedTestimonials"/>
       <web-c-t-a/>
       <web-clients/>
       <web-contacts/>
@@ -73,6 +73,30 @@ export default {
               VÍCE: '#content-section39',
               PORTFOLIO: '#portfolios-section3'
             }
+          }
+        ],
+        loadedTestimonials: [
+          {
+            text:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+            author: 'JOHN CARMACK',
+            company: 'GOOGLE'
+          },
+          {
+            text:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+            author: 'Jeremy Girard',
+            company: 'Microsoft'
+          },
+          {
+            text:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.",
+            author: 'Paul Scrivens',
+            company: 'Facebook'
+          },
+          {
+            text: 'Ambition is a dream with a V8 engine.',
+            author: 'Elvis'
           }
         ]
       });

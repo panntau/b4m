@@ -7,24 +7,27 @@
                 <!-- logo -->
                 <b-col md="3" sm="4" xs="9">
                     <a href="#home" class="inner-link">
-                        <img alt="" src="~/assets/images/logoB4M_big.png" data-img-size="(W)163px X (H)60px">
+                        <img alt="" src="~/assets/images/logoB4M_big.png">
                     </a>
                 </b-col>
                 <!-- end logo -->
                 <b-col md="9"  sm="8" xs="3" class="position-inherit">
-                    <b-navbar-toggle target="bs-example-navbar-collapse-1">Menu</b-navbar-toggle>
+                    <b-navbar-toggle target="bs-example-navbar-collapse-1">
+                      <div class="burger">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </div>
+                      <div class="icon-name">Menu</div>
+                    </b-navbar-toggle>
                     <!-- <button data-target="#" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-                        <div class="icon-name">Menu</div>
-                        <div class="burger">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </div>
                     </button> -->
                     <b-collapse id="bs-example-navbar-collapse-1" is-nav class="pull-right">
                         <b-nav>
-                            <b-nav-item class="propClone">
-                                <a class="inner-link text-white" href="#content-section39" id="ui-id-28">O nás</a>
+                            <b-nav-item class="propClone" href="#content-section39" id="ui-id-28">
+                              <span class="inner-link text-white" >
+                                O nás
+                              </span>
                             </b-nav-item>
                             <b-nav-item class="propClone">
                                 <a class="inner-link text-white" href="#content-section21" id="ui-id-31">Služby</a>
@@ -156,5 +159,22 @@ header .row {
 }
 .dark-header.navbar li.active a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background: #fff;
+}
+.burger {
+  margin: 0 10px;
+}
+.navbar-toggler {
+  display: flex;
+  color: #fff;
+}
+.navbar-toggler .icon-bar + .icon-bar {
+  margin-top: 4px;
 }
 </style>
